@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #262626;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  position: relative;
+}
+
+h1 {
+  color: #ff7f11;
+  padding: 30px;
+  font-size: 2em;
+}
+
+p {
+  color: #ff7f11;
+  font-size: 1em;
+}
+
+.record > .play, .record > .clear {
+  color: #262626;
+  background-color: #ff7f11;
+  padding: 3px 10px;
+  font-size: 1em;
+  margin: 0px 5px;
+  min-width: 60px;
+}
+
+#drum-machine {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100vh;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.drum-pad {
+  font-size: 3em;
+  background-color: #c04cfd;
+  color: #262626;
+  border: none;
+  margin: 2px;
+  width: 100px;
+  height: 80px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.drum-pad:hover {
+  background-color: #53ff45;
+  color: #ff7f11;
+}
+
+.vol {
+  margin-top: 20px;
+  cursor: pointer;
+  width: 40%;
+}
